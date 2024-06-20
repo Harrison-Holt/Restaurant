@@ -10,7 +10,7 @@
                 <li><a href="#">Locations</a></li>
                 <li><a href="#">Order Online</a></li>
                 <li><a href="#">Cartering</a></li>
-                <li><a href="#">Sign in</a></li>
+                <li><a href="@/Sign-In.vue">Sign in</a></li>
                 </ul>
             </nav>
         </header>
