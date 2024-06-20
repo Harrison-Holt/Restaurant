@@ -1,0 +1,112 @@
+
+header {
+    background-color: #000;
+    align-items: center;
+}
+footer {
+    background-color: #000;
+    color: #fff; 
+    width: 100%; 
+}
+
+footer div {
+    margin: 15px; 
+    padding: 15px;
+}
+li {
+    list-style-type: none;
+}
+nav, ul {
+    height: 100%;
+    margin-top: 20px;
+}
+header li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'merriweather';
+    padding: 15px; 
+
+}
+i, header h1 {
+    color: #fff;
+    padding: 15px; 
+    font-family: 'merriweather';
+    font-size: 36px;
+}
+.icon-size {
+    font-size: 36px;
+    margin-top: 5px
+}
+.tavern_logo {
+    width: 50%;
+    height: 85%; 
+    border-radius: 50%;
+}
+.title-logo {
+    align-items: center;
+    width: 25%; 
+    padding: 10px; 
+    margin-right: 50px;
+
+}
+
+/* section css */ 
+.about_section {
+    position: relative;
+    background-image: url(./about_section_background4.jpg);
+    background-size: cover;
+    color: white; 
+    padding: 50px 20px; 
+    align-items: center;
+    overflow: hidden;
+    min-height: 50vh;
+}
+.about_section:before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+.about_section h1 {
+    z-index: 2;
+    font-size: 48px;
+}
+.about_section p {
+    max-width: 90ch;
+    font-family: 'cardo';
+    font-size: 24px;
+    line-height: 150%;
+    z-index: 2;
+}
+
+.Menu_Card_1, .Menu_Card_2, .Menu_Card_3 {
+    align-items: center;
+    margin: 15px; 
+    padding: 10px;
+    background-color: #B0BEC5;
+    border-radius: 15px;
+    border-color: #000;
+    border: 15px; 
+    border: 2px solid #000;
+    width: 30%; 
+
+}
+.Menu_Card_1 h3, .Menu_Card_2 h3, .Menu_Card_3 h3 {
+    font-family: 'merriweather';
+    font-size: 48px;
+}
+.Menu_Card_1 li, .Menu_Card_2 li, .Menu_Card_3 li {
+    font-family: 'cardo';
+    font-size: 22px;
+    max-width: 60ch; ;
+}
+
+.Menu_Card_1 img, .Menu_Card_2 img, .Menu_Card_3 img {
+    height: 50%; 
+    width: 50%
+}
